@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PetCare Nearby Medical</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <h1>🐾 PetCare Medical Finder</h1>
+      <p>Find nearby veterinary hospitals & pet clinics instantly</p>
+
+      <button id="findBtn">
+        📍 Find Nearby Medical
+      </button>
+
+      <div id="status"></div>
+    </header>
+
+    <div id="map"></div>
+
+    <section class="results-section">
+      <h2>Nearby Pet Clinics</h2>
+      <div id="results"></div>
+    </section>
+
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
